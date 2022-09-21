@@ -31,6 +31,7 @@ header{
     width: 100%;
     align-items: center;
     box-shadow: 0px 6px 11px #888888;
+    z-index: 2;
 }
 
 header a{
@@ -49,14 +50,24 @@ nav{
 
 #market{
     padding: 10vh 0;
+    flex-wrap: wrap;
 }
 
 .market-item{
     flex-basis: 30%;
+    padding: 2.5vh 0;
 }
 
 .market-item img{
     width: 100%;
+}
+
+.market-item p{
+    color: red;
+}
+
+del{
+    color: black;
 }
 
 .preview{
