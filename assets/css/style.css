@@ -30,13 +30,14 @@ header{
     height: 6vh;
     width: 100%;
     align-items: center;
+    box-shadow: 0px 6px 11px #888888;
 }
 
 header a{
     padding: 0 1em;
 }
 
-header > div{
+nav{
     align-items: center;
 }
 
@@ -46,3 +47,56 @@ header > div{
 
 /* main */
 
+#market{
+    padding: 10vh 0;
+}
+
+.market-item{
+    flex-basis: 30%;
+}
+
+.market-item img{
+    width: 100%;
+}
+
+.preview{
+    display: inline-block;
+}
+
+.show{
+    display: none;
+}
+
+.item-container{
+    position: relative;
+}
+
+.item-container:hover .preview{
+    display: none;
+}
+
+.item-container:hover .show{
+    display: inline-block;
+}
+
+.heart, .item-info{
+    position: absolute;
+}
+
+.heart{
+    top: 20px;
+    right: 0;
+}
+
+.item-info{
+    bottom: 20px;
+    left: 0;
+}
+
+.sales{
+    background-color: #FF0000;
+}
+
+.eco{
+    background-color: #008000;
+}
