@@ -5,8 +5,8 @@
 }
 
 /* utilities */
-.container-80{
-    width: 80%;
+.container{
+    width: 70%;
 }
 
 .auto{
@@ -19,6 +19,10 @@
 
 .f-between{
     justify-content: space-between;
+}
+
+.t-white{
+    color: white;
 }
 
 
@@ -49,7 +53,7 @@ nav{
 /* main */
 
 #market{
-    padding: 10vh 0;
+    padding: 10vh 0 3vh 0;
     flex-wrap: wrap;
 }
 
@@ -110,4 +114,12 @@ del{
 
 .eco{
     background-color: #008000;
+}
+
+/* footer */
+footer{
+    background-color: #1A1A1A;
+    padding: 3vh 0;
+    border-bottom: 1px solid white;
+    line-height: 2em;
 }
