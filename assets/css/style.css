@@ -110,7 +110,16 @@ del{
 
 .heart{
     top: 20px;
-    right: 0;
+    right: 15px;
+}
+
+.heart::after{
+    content: '\2665';
+    font-size: 2em;
+}
+
+.heart:hover{
+    color: red;
 }
 
 .item-info{
@@ -124,6 +133,11 @@ del{
 
 .eco{
     background-color: #008000;
+}
+
+.sales, .eco{
+    padding: 3px;
+    font-size: 0.8em;
 }
 
 /* footer */
