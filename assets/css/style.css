@@ -3,3 +3,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* utilities */
+.container-80{
+    width: 80%;
+}
+
+.auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.f-between{
+    justify-content: space-between;
+}
+
+
+/* body content */
+/* header */
+header{
+    position: fixed;
+    background-color: #FF6900;
+    height: 6vh;
+    width: 100%;
+    align-items: center;
+}
+
+header a{
+    padding: 0 1em;
+}
+
+header > div{
+    align-items: center;
+}
+
+#logo{
+    height: 4vh;
+}
+
+/* main */
+
